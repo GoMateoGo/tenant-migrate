@@ -1,0 +1,18 @@
+# Local credentials and database exports
+.env
+.env.*
+env.ps1
+env_prod.ps1
+.pgpass
+pgpass.conf
+*.dump
+*.backup
+*.pem
+*.pfx
+baseline-review/
+prod-baseline*/
+prod-schema-review/
+
+# Local binaries
+/migrate
+/migrate.exe
